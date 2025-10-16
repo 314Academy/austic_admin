@@ -1,0 +1,26 @@
+export const routes = {
+  login: () => "/api/user/login",
+  signup: () => "/api/user/register",
+  reset: () => "/api/user/reset_password",
+  Adminsignup: () => "/api/admin/register",
+  forgotPassword: (email) => `/api/user/forgot_password?email=${email}`,
+  deleteAccount: (email) => `/api/user/delete_user/${email}`,
+  retrieveAllAdmin: (perpage, pageno) => `/api/all/${perpage}/${pageno}`,
+  confirmEmail: () => "/api/user/confirm-email",
+  profile: () => "/api/user/info",
+  getEnquiry: () => "/api/support/user/ticket/active/admin",
+  sendTicketMessage: () => "/api/support/ticket/message",
+  catSymbolUrl: () => "/api/symbol/category/all",
+  catinSymbolUrl: () => "/api/symbol/category/retrieve_all_symbol",
+  AddCatUrl: () => "/api/symbol/category/create",
+  closeTicket: () => "/api/support/ticket/close",
+  retrievePlans: () => "/api/subscription/retrieve/all",
+  updateProfile: (email) => `/api/user/update_details/${email}`,
+  symbolUrl: (symbolid) => `/api/symbol/image/${symbolid}`,
+  DeletesymbolUrl: (symbolid) => `/api/symbol/delete/${symbolid}`,
+  DeleteCatUrl: (catid) => `/api/symbol/cat/delete/${catid}`,
+  UploadsymbolUrl: (catName, desc) =>
+    `/api/symbol/upload?CategoryName=${catName}&Description=${desc}`,
+  generateAiSymbol: (prompt, catid) =>
+    `/api/symbol/admin/ai/prompt?prompt=${prompt}&catid=${catid}`,
+};
