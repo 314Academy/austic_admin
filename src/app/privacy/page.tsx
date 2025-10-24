@@ -66,7 +66,7 @@ const PrivacyPolicy: React.FC = () => {
             This privacy policy applies to the CommUnity app (the{" "}
             <strong>Application</strong>) created by{" "}
             <strong>3.14 Academy</strong> (the <strong>Service Provider</strong>
-            ) and is provided "AS IS".
+            ) and is provided &quot;AS IS&quot;.
           </div>
 
           <div className="mb-6">
@@ -95,7 +95,9 @@ const PrivacyPolicy: React.FC = () => {
             This information may include (but is not limited to):
           </p>
           <ul className="list-disc pl-6 space-y-2 text-sm text-gray-700 mb-4">
-            <li>Your device's Internet Protocol address (e.g. IP address)</li>
+            <li>
+              Your device&apos;s Internet Protocol address (e.g. IP address)
+            </li>
             <li>
               The pages of the Application that you visit, the time and date of
               your visit, and the time spent on those pages
@@ -108,8 +110,8 @@ const PrivacyPolicy: React.FC = () => {
             Location / Geolocation Services
           </h2>
           <p className="font-medium sm:text-base text-sm mb-[1rem]">
-            The Application collects your device's location. Location data may
-            be used for the following purposes:
+            The Application collects your device&apos;s location. Location data
+            may be used for the following purposes:
           </p>
           <ul className="list-disc pl-6 space-y-2 text-sm text-gray-700 mb-4">
             <li>
@@ -163,8 +165,8 @@ const PrivacyPolicy: React.FC = () => {
               investigate fraud.
             </li>
             <li>
-              Trusted service providers who act on the Service Provider's behalf
-              and are contractually bound not to independently use the
+              Trusted service providers who act on the Service Provider&apos;s
+              behalf and are contractually bound not to independently use the
               information.
             </li>
           </ul>
@@ -184,7 +186,7 @@ const PrivacyPolicy: React.FC = () => {
           <p className="font-medium sm:text-base text-sm mb-[1rem]">
             The Service Provider will retain User Provided data for as long as
             you use the Application and for a reasonable time thereafter. If
-            you'd like the Service Provider to delete User Provided data,
+            you&apos;d like the Service Provider to delete User Provided data,
             contact:{" "}
             <a
               href="mailto:info@314academy.org"
